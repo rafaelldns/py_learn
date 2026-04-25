@@ -1,4 +1,4 @@
-print("Tuple cration and acess")
+print("Tuple creation and acess\n")
 point = (25, 37, 42)
 print(point[0])
 print(point[2])
@@ -8,7 +8,7 @@ print(point[1])
 # index(element) : index of the first element's apearance in the tuple, can specify the start and end of the search
 # len(tuple) : return the length
 
-print("\nTuple Methods")
+print("\nTuple Methods\n")
 
 tuple = (14, 15, 17, 14, 21, 14, 15, 14)
 
