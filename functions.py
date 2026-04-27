@@ -10,7 +10,7 @@ func()
 print("\nParameters and Arguments")
 
 def pa(nome):
-    print("Hello,", nome, "!")
+    print(f"Hello, {nome}!")
 
 pa("Tulio")
 
