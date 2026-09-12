@@ -1,7 +1,7 @@
 print('== CHALLENGE 35 ==')
-l1,l2,l3 = map(float, input('Enter a three lines: \n').split(21))
+l1,l2,l3 = map(float, input('Enter a three lines: \n').split())
 
 if l1 < l2+l3 and l2 < l3+l1 and l3 < l1+l2:
-    print('These lines can form a triangle!')
+    print('These lines \033[0;32mcan\033[m form a triangle!')
 else:
-    print('These line can not form a triangle!')
+    print('These line \033[0;31mcan not\033[m form a triangle!')
