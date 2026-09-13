@@ -4,9 +4,9 @@ v = [0, 1, 2, 3, 4, 5]
 
 r = choice(v)
 
-n = int(input("Guess the number from 0 to 5: "))
+n = int(input("Guess the number from \033[0;33m0 to 5\033[m: "))
 
 if n == r:
-    print('Correct answer! The number is: {}'.format(r))
+    print('\033[0;32mCorrect answer!\033[m The number is: {}'.format(r))
 else:
-    print('Wrong answer! The number is: {}'.format(r))
+    print('\033[0;31mWrong answer!\033[m The number is: {}'.format(r))
