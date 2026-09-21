@@ -23,7 +23,6 @@ while True:
 
 print(f'{"CODE":<4} {"NAME":<12} {"MEDIA":>12}')
 
-med = 0
 print(55*'=')
 for i, j in enumerate(total):
     temp = j[1]
