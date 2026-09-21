@@ -1,6 +1,6 @@
 print('== CHALLENGE 71 ==')
 
-print('\n======= ATM =======\n')
+print('\n========= ATM =========\n')
 
 notes_disp = [50,20,10,1]
 banknotes = {}
