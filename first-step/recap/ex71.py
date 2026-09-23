@@ -42,4 +42,3 @@ for note in notes_disp:
 
 for note, quantity in banknotes.items():
     print(f'Quantity for notes ${note}: {quantity}')'''    
-
