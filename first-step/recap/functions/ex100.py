@@ -1,5 +1,6 @@
 from random import randint
 from time import sleep
+
 print('{:^55}'.format('CHALLENGE 100'))
 
 lst = list()
