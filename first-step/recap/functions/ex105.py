@@ -55,7 +55,6 @@ def receives(msg):
             op = input('Want to Insert More: [Y/N] ').upper()
             if op == 'Y' or op == 'N': break
             else: print('Invalid Value! Try Again.')
-        
         if op == 'N': break
     
     return note
