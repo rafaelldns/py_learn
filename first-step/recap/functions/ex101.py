@@ -10,7 +10,7 @@ def vote(n):
         
 
 
-print('{:^55}'.format('CHALLENGE 101'))
+print('{:^55}'.format('CHALLENGE 101')+'\n'+55*'=')
 year = int(input('Enter your birth year: '))
 year = 2026 - year
 vote(year)
