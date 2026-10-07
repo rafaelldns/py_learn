@@ -4,8 +4,8 @@ def resume(n, i, d):
     + f'\nAnalyzed price:   {gold(n)}'
     + f'\nDoubled price:    {double(n, True)}'
     + f'\nHalfed price:     {half(n, True)}'
-    + f'\n80% increased:    {increase(n, i, True)}'
-    + f'\n35% decreased:    {decrease(n, d, True)}'
+    + f'\n{i}% increased:    {increase(n, i, True)}'
+    + f'\n{d}% decreased:    {decrease(n, d, True)}'
     + '\n'+ 55*'=')
     return print(s)
 
