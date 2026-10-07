@@ -1,16 +1,23 @@
-dou = hal = inc = dec = 0
+def double(n = 0):
+    dou = n*2
+    return dou
 
-def calcs(n):
-    dou = n*2 
-    dec = n - (n/100*13)
-    inc = (n/100*10) + n
+
+def half(n = 0):
     hal = n/2 
-    gold(dou, hal, inc, dec)
+    return hal
 
 
-def gold(d,h,i,de):
-    print(f'Double: R${d:.2f}')
-    print(f'Half: R${h:.2f}')
-    print(f'Increase 10%: R${i:.2f}')
-    print(f'Decrease 13%: R${de:.2f}')
+def increase(n = 0):
+    inc = (n/100*10) + n
+    return inc
+
+
+def decrease(n = 0):
+    dec = n - (n/100*13)
+    return dec
+
+
+def gold(n = 0, gold = 'R$'):
+    return f'{gold}{n:.2f}'
 
