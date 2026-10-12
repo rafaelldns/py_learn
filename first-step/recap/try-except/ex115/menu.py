@@ -3,8 +3,8 @@ import func
 def menu():
     print(50*'='+'\n'+'{:^50}'.format('MAIN MENU')+'\n'+50*'=')
     print('\033[0;33m1 -\033[0;34mView registered people')
-    print('\033[0;33m1 -\033[0;34mRegister new person')
-    print('\033[0;33m1 -\033[0;34mExit system\033[m')
+    print('\033[0;33m2 -\033[0;34mRegister new person')
+    print('\033[0;33m3 -\033[0;34mExit system\033[m')
     print(50*'=') 
     op = int(input('Your option: '))   
 
