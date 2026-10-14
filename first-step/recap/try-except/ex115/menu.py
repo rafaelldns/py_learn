@@ -17,6 +17,9 @@ def menu():
             func.view()
         
         if op == 2:
-            func.add()
+            n = input('Name: ')
+            a = input('Age: ')
+            func.add(n, a)
+
         if op == 3:
             func.exit()
