@@ -1,3 +1,10 @@
-import menu, func
+import menu
+import func
+from archive import *
 
-menu.menu()
+arc = 'testing.txt'
+
+if not archive(arc):
+    creat(arc)
+
+menu.menu(arc)
