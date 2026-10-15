@@ -2,7 +2,7 @@ import menu, time
 cadt = dict()
 
 
-def readint():
+def readint(msg):
     while True:
         try:
             n = int(input(msg))

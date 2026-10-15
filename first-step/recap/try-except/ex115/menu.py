@@ -17,15 +17,14 @@ def menu(arc):
             print('Insert a valid option:')
         if op == 1:
             readArc(arc)
-            o = 1
-            #func.view()
         elif op == 2:
+            print(50*'='+'\n'+'{:^50}'.format('NEW REGISTRATION')+'\n'+'='*50)
             n = input('Name: ')
-            a = input('Age: ')
-            #func.add(n, a)
+            a = func.readint('Age: ')
+            addArc(arc, n, a)
         elif op == 3:
-            b = 0
-            #func.exit()
+            print(50*'-'+'\n'+'{:^50}'.format('Exiting...')+'\n'+50*'-')
+            break
         else: 
             print(50*'-'+'\n'+'\033[31mERROR: Insert a valid option!\033[m')
         sleep(2)

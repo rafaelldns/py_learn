@@ -1,3 +1,2 @@
-Rafael; 20
-Joseval; 62
-Mateus; 31
+Rafael;20
+Gustavo;41
